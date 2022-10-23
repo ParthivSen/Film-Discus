@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel = "icon" href = 
+"images/fluent-emoji-high-contrast_movie-camera.png" 
+type = "image/x-icon">
+
+<body>
+    <header class="header">
+        
+        <a href="#" class="logo"> <img src="images/fluent-emoji-high-contrast_movie-camera.png" alt=""> Film Discus</a>
+       
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#trending">Trending</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#shows">TV shows</a></li>
+            <li><a href="#recommendation">Recommended</a></li>
+
+        </ul>
+    </header>
+
+
+    <div class="search">
+        <h2 class="heading">Welcome</h2>
+        <h3 class="sub-heading">Millions of movies, TV shows and people to discover. Explore now.</h3>
+        <div class="search-bar">
+<form action="review.html">
+    <input type="text" placeholder="Enter movie name here..."/> 
+    <button id="search-btn"> <a href="review.html"></a> Search </button>
+</form>
+
+        </div>
+    </div>
+    <div id="result"></div>
+    <div class="trending" id="trending">
+        <h3 class="sub-heading">Top Trending</h3>
+      
+        <div class="trend">
+            <li class="trenditem">
+                <div class="img_play">
+                    <img src="images/shows/Game of Thrones (2011).jpg " alt="Gameof throne">
+                </div>
+                <h5>
+                    Game of Thrones
+                    <br>
+                    <div class="subtitle">2011</div>
+
+                </h5>
+
+            </li>
+            <li class="trenditem">
+                <div class="img_play">
+                    <img src="images/movies/3 Idiots (2009).jpg" alt="3 Idiots">
+                </div>
+                <h5>
+                    # Idiots
+                    <br>
+                    <div class="subtitle">2009</div>
+
+                </h5>
+
+            </li>
+            <li class="trenditem">
+                <div class="img_play">
+                    <img src="images/trending/DAHMER 2022.jpg" alt="DAHMER">
+                </div>
+                <h5>
+                    DAHMER
+                    <br>
+                    <div class="subtitle">2022</div>
+
+                </h5>
+
+            </li>
+            <li class="trenditem">
+                <div class="img_play">
+                    <img src="images/trending/fast and furious tokyo drift  2006.jpg" alt="fast and furious tokyo drift">
+                </div>
+                <h5>
+                    Fast and Furious Tokyo Drift
+                    <br>
+                    <div class="subtitle">2006</div>
+
+                </h5>
+
+            </li>
+            <li class="trenditem">
+                <div class="img_play">
+                    <img src="images/trending/Dynasty 2017.jpg" alt="Dynasty">
+                </div>
+                <h5>
+                    Dynasty
+                    <br>
+                    <div class="subtitle">2017</div>
+
+                </h5>
+
+            </li>
+            <li class="trenditem">
+                <div class="img_play">
+                    <img src="images/trending/Lucifer 2016.jpg" alt="Lucifer">
+                </div>
+                <h5>
+                    Lucifer
+                    <br>
+                    <div class="subtitle">2016</div>
+
+                </h5>
+
+            </li>
+        
+            <li class="trenditem">
+                <div class="img_play">
+                    <img src="images/trending/Mr. Harrigan_s Phone.jpg" alt="Mr. Harrigan_s Phone">
+                </div>
+                <h5>
+                    Mr. Harrigan_s Phone
+                    <br>
+                    <div class="subtitle">2022</div>
+
+                </h5>
+
+            </li>
+            <li class="trenditem">
+                <div class="img_play">
+                    <img src="images/trending/Squid game 2021.jpg" alt="Squid game">
+                </div>
+                <h5>
+                    Squid game 
+                    <br>
+                    <div class="subtitle">2021</div>
+
+                </h5>
+
+            </li>
+            <li class="trenditem">
+                <div class="img_play">
+                    <img src="images/trending/The Blacklist 2013.jpg" alt="The Blacklist">
+                </div>
+                <h5>
+                    The Blacklist
+                    <br>
+                    <div class="subtitle">2013</div>
+
+                </h5>
+
+            </li>
+            <li class="trenditem">
+                <div class="img_play">
+                    <img src="images/trending/The Boss Baby 2017.jpg" alt="The Boss Baby">
+                </div>
+                <h5>
+                    The Boss Baby
+                    <br>
+                    <div class="subtitle">2017</div>
+
+                </h5>
+
+            </li>
+            <li class="trenditem">
+                <div class="img_play">
+                    <img src="images/trending/The Curse of Bridge Hollow 2022.jpg" alt="The Curse of Bridge Hollow">
+                </div>
+                <h5>
+                    The Curse of Bridge Hollow
+                    <br>
+                    <div class="subtitle">2022</div>
+
+                </h5>
+
+            </li>
+            <li class="trenditem">
+                <div class="img_play">
+                    <img src="images/trending/the mid knight club 2022.jpg" alt="the mid knight club">
+                </div>
+                <h5>
+                    The mid knight club
+                    <br>
+                    <div class="subtitle">2022</div>
+
+                </h5>
+
+            </li>
+            <li class="trenditem">
+                <div class="img_play">
+                    <img src="images/trending/you 2018.jpg" alt="You">
+                </div>
+                <h5>
+                    You
+                    <br>
+                    <div class="subtitle">2018</div>
+
+                </h5>
+
+            </li>
+
+
+
+
+        </div>
+
+
+    </div>
+    <div class="movies" id="movies">
+        <h3 class="sub-heading">Movies</h3>
+      
+        <div class="movie">
+            <li class="movieitem">
+                <div class="img_play">
+                    <img src="images/movies/3 Idiots (2009).jpg" alt="3 Idiots">
+                </div>
+                <h5>
+                    3 Idiots
+                    <br>
+                    <div class="subtitle">2009</div>
+
+                </h5>
+
+            </li>
+            <li class="movieitem">
+                <div class="img_play">
+                    <img src="images/movies/Forrest Gump (1994).jpg" alt="forrest Gump">
+                </div>
+                <h5>
+                    Forrest Gump
+                    <br>
+                    <div class="subtitle">1994</div>
+
+                </h5>
+
+            </li>
+            <li class="movieitem">
+                <div class="img_play">
+                    <img src="images/movies/Fight Club (1999).jpg" alt="Fight Club">
+                </div>
+                <h5>
+                    Fight Club
+                    <br>
+                    <div class="subtitle">1999</div>
+
+                </h5>
+
+            </li>
+            <li class="movieitem">
+                <div class="img_play">
+                    <img src="images/movies/Monsters, Inc. (2001).jpg" alt="Monsters, Inc.">
+                </div>
+                <h5>
+                    Monsters, Inc.
+                    <br>
+                    <div class="subtitle">2001</div>
+
+                </h5>
+
+            </li>
+            <li class="movieitem">
+                <div class="img_play">
+                    <img src="images/movies/jurassic world dominion 2022.jpg" alt="jurassic world dominion">
+                </div>
+                <h5>
+                    Jurassic world dominion
+                    <br>
+                    <div class="subtitle">2022</div>
+
+                </h5>
+
+            </li>
+            <li class="movieitem">
+                <div class="img_play">
+                    <img src="images/movies/Parasite (2019).jpg" alt="Parasite">
+                </div>
+                <h5>
+                    Parasite
+                    <br>
+                    <div class="subtitle">2019</div>
+
+                </h5>
+
+            </li>
+            <li class="movieitem">
+                <div class="img_play">
+                    <img src="images/nowayhome.jpg" alt="no-way-home">
+                </div>
+                <h5>
+                    Spider-man No Way Home
+                    <br>
+                    <div class="subtitle">2021</div>
+
+                </h5>
+
+            </li>
+            <li class="movieitem">
+                <div class="img_play">
+                    <img src="images/movies/Top Gun Maverick (2022).webp" alt="Top Gun Maverick">
+                </div>
+                <h5>
+                    Top Gun Maverick
+                    <br>
+                    <div class="subtitle">2022</div>
+
+                </h5>
+
+            </li>
+            <li class="movieitem">
+                <div class="img_play">
+                    <img src="images/movies/WALLúE (2008).jpg" alt="WALL·E">
+                </div>
+                <h5>
+                    WALL·E
+                    <br>
+                    <div class="subtitle">2008</div>
+
+                </h5>
+
+            </li>
+            <li class="movieitem">
+                <div class="img_play">
+                    <img src="images/movies/Whiplash (2014).jpg" alt="Whiplash">
+                </div>
+                <h5>
+                    Whiplash
+                    <br>
+                    <div class="subtitle">2014</div>
+
+                </h5>
+
+            </li>
+            <li class="movieitem">
+                <div class="img_play">
+                    <img src="images/movies/shutter island 2010.jpg" alt="shutter island ">
+                </div>
+                <h5>
+                    Shutter Island 
+                    <br>
+                    <div class="subtitle">2010</div>
+
+                </h5>
+
+            </li>
+            <li class="movieitem">
+                <div class="img_play">
+                    <img src="images/movies/Spider-Man Into the Spider-Verse (2018).jpg" alt="Spider-Man Into the Spider-Verse">
+                </div>
+                <h5>
+                    Spider-Man Into the Spider-Verse
+                    <br>
+                    <div class="subtitle">2018</div>
+
+                </h5>
+
+            </li>
+            <li class="movieitem">
+                <div class="img_play">
+                    <img src="images/movies/sully 2016.jpg" alt="sully">
+                </div>
+                <h5>
+                    Sully
+                    <br>
+                    <div class="subtitle">2016</div>
+
+                </h5>
+
+            </li>
+            <li class="movieitem">
+                <div class="img_play">
+                    <img src="images/movies/The Dark Knight (2008).jpg" alt="The Dark Knight">
+                </div>
+                <h5>
+                    
+                    The Dark Knight
+                    <br>
+                    <div class="subtitle">2008</div>
+
+                </h5>
+
+            </li>
+            <li class="movieitem">
+                <div class="img_play">
+                    <img src="images/movies/The Shawshank Redemption (1994).jpg" alt="The Shawshank Redemption">
+                </div>
+                <h5>
+                    The Shawshank Redemption
+                    <br>
+                    <div class="subtitle">1994</div>
+
+                </h5>
+
+            </li>
+        </div>
+
+    </div>
+    <div class="shows" id="shows">
+        <h3 class="sub-heading">Shows</h3>
+       
+        <div class="show">
+            <li class="showitem">
+                <div class="img_play">
+                    <img src="images/shows/Breaking Bad (2008).jpg" alt="Breaking Bad ">
+                </div>
+                <h5>
+                    Breaking Bad 
+                    <br>
+                    <div class="subtitle">2021</div>
+
+                </h5>
+
+            </li>
+            <li class="showitem">
+                <div class="img_play">
+                    <img src="images/shows/Chernobyl (2019).jpg" alt="Chernobyl">
+                </div>
+                <h5>
+                    Chernobyl
+                    <br>
+                    <div class="subtitle">2021</div>
+
+                </h5>
+
+            </li>
+            <li class="showitem">
+                <div class="img_play">
+                    <img src="images/shows/Cobra Kai (2018).jpg" alt="Cobra Kai">
+                </div>
+                <h5>
+                    Cobra Kai
+                    <br>
+                    <div class="subtitle">2018</div>
+
+                </h5>
+
+            </li>
+            <li class="showitem">
+                <div class="img_play">
+                    <img src="images/shows/Death Note (2006).jpg" alt="Death Note">
+                </div>
+                <h5>
+                    Death Note
+                    <br>
+                    <div class="subtitle">2006</div>
+
+                </h5>
+
+            </li>
+            <li class="showitem">
+                <div class="img_play">
+                    <img src="images/shows/Friends (1994).jpg" alt="Friends">
+                </div>
+                <h5>
+                    Friends
+                    <br>
+                    <div class="subtitle">1994</div>
+
+                </h5>
+
+            </li>
+            <li class="showitem">
+                <div class="img_play">
+                    <img src="images/shows/Game of Thrones (2011).jpg" alt="Game of Thrones">
+                </div>
+                <h5>
+                    Game of Thrones
+                    <br>
+                    <div class="subtitle">2011</div>
+
+                </h5>
+
+            </li>
+            <li class="showitem">
+                <div class="img_play">
+                    <img src="images/shows/House of Cards (2013).jpg" alt="House of Cards">
+                </div>
+                <h5>
+                    House of Cards
+                    <br>
+                    <div class="subtitle">2013</div>
+
+                </h5>
+
+            </li>
+            <li class="showitem">
+                <div class="img_play">
+                    <img src="images/shows/money heist 2017.jpg" alt="nmoney heist">
+                </div>
+                <h5>
+                    Money heist
+                    <br>
+                    <div class="subtitle">2017</div>
+
+                </h5>
+
+            </li>
+            <li class="showitem">
+                <div class="img_play">
+                    <img src="images/shows/Mr. Bean (1990).jpg" alt="Mr. Bean">
+                </div>
+                <h5>
+                    Mr. Bean
+                    <br>
+                    <div class="subtitle">1990</div>
+
+                </h5>
+
+            </li>
+            <li class="showitem">
+                <div class="img_play">
+                    <img src="images/shows/Narcos (2015).jpg" alt="Narcos">
+                </div>
+                <h5>
+                    Narcos
+                    <br>
+                    <div class="subtitle">2015</div>
+
+                </h5>
+
+            </li>
+            <li class="showitem">
+                <div class="img_play">
+                    <img src="images/shows/Peaky Blinders (2013).jpg" alt="Peaky Blinders">
+                </div>
+                <h5>
+                    Peaky Blinders
+                    <br>
+                    <div class="subtitle">2013</div>
+
+                </h5>
+
+            </li>
+            <li class="showitem">
+                <div class="img_play">
+                    <img src="images/shows/Rick and Morty (2013).jpg" alt="nRick and Morty">
+                </div>
+                <h5>
+                    Rick and Morty 
+                    <br>
+                    <div class="subtitle">2013</div>
+
+                </h5>
+
+            </li>
+            <li class="showitem">
+                <div class="img_play">
+                    <img src="images/shows/Stranger Things (2016).jpg" alt="Stranger Things">
+                </div>
+                <h5>
+                    Stranger Things
+                    <br>
+                    <div class="subtitle">2016</div>
+
+                </h5>
+
+            </li>
+            <li class="showitem">
+                <div class="img_play">
+                    <img src="images/shows/The office 2005.jpg" alt="The office">
+                </div>
+                <h5>
+                    The office
+                    <br>
+                    <div class="subtitle">2005</div>
+
+                </h5>
+
+            </li>
+            <li class="showitem">
+                <div class="img_play">
+                    <img src="images/shows/The Queen_s Gambit (2020).jpg" alt="The Queen_s Gambit">
+                </div>
+                <h5>
+                    The Queen_s Gambit
+                    <br>
+                    <div class="subtitle">2020</div>
+
+                </h5>
+
+            </li>
+
+        </div>
+
+    </div>
+    <div class="recommendation" id="recommendation">
+        <h3 class="sub-heading">Recommended For You</h3>
+      
+        <div class="recommend">
+            <li class="recommenditem">
+                <div class="img_play">
+                    <img src="images/nowayhome.jpg" alt="no-way-home">
+                </div>
+                <h5>
+                    Spider-man No Way Home
+                    <br>
+                    <div class="subtitle">2021</div>
+
+                </h5>
+
+            </li>
+            <li class="recommenditem">
+                <div class="img_play">
+                    <img src="images/shows/Friends (1994).jpg" alt="Friends ">
+                </div>
+                <h5>
+                    Friends 
+                    <br>
+                    <div class="subtitle">2021</div>
+
+                </h5>
+
+            </li>
+            <li class="recommenditem">
+                <div class="img_play">
+                    <img src="images/shows/Rick and Morty (2013).jpg" alt="Rick and Morty ">
+                </div>
+                <h5>
+                    Rick and Morty 
+                    <br>
+                    <div class="subtitle">2013</div>
+
+                </h5>
+
+            </li>
+            <li class="recommenditem">
+                <div class="img_play">
+                    <img src="images/movies/Parasite (2019).jpg" alt="nParasite">
+                </div>
+                <h5>
+                    Parasite
+                    <br>
+                    <div class="subtitle">2019</div>
+
+                </h5>
+
+            </li>
+            <li class="recommenditem">
+                <div class="img_play">
+                    <img src="images/movies/The Dark Knight (2008).jpg" alt="nThe Dark Knight">
+                </div>
+                <h5>
+                    The Dark Knight
+                    <br>
+                    <div class="subtitle">2008</div>
+
+                </h5>
+
+            </li>
+            <li class="recommenditem">
+                <div class="img_play">
+                    <img src="images/shows/Cobra Kai (2018).jpg" alt="Cobra Kai">
+                </div>
+                <h5>
+                    Cobra Kai
+                    <br>
+                    <div class="subtitle">2018</div>
+
+                </h5>
+
+            </li>
+            <li class="recommenditem">
+                <div class="img_play">
+                    <img src="images/shows/money heist 2017.jpg" alt="nmoney heist">
+                </div>
+                <h5>
+                    Money heist
+                    <br>
+                    <div class="subtitle">2017</div>
+
+                </h5>
+
+            </li>
+            <li class="recommenditem">
+                <div class="img_play">
+                    <img src="images/movies/interstellar 2014.jpg" alt="interstellar">
+                </div>
+                <h5>
+                    Interstellar
+                    <br>
+                    <div class="subtitle">2014</div>
+
+                </h5>
+
+            </li>
+        
+            <li class="recommenditem">
+                <div class="img_play">
+                    <img src="images/movies/Spider-Man Into the Spider-Verse (2018).jpg" alt="Spider-Man Into the Spider-Verse">
+                </div>
+                <h5>
+                    Spider-Man Into the Spider-Verse
+                    <br>
+                    <div class="subtitle">2018</div>
+
+                </h5>
+
+            </li>
+            <li class="recommenditem">
+                <div class="img_play">
+                    <img src="images/shows/Narcos (2015).jpg" alt="Narcos">
+                </div>
+                <h5>
+                    Narcos
+                    <br>
+                    <div class="subtitle">2015</div>
+
+                </h5>
+
+            </li>
+            <li class="recommenditem">
+                <div class="img_play">
+                    <img src="images/movies/3 Idiots (2009).jpg" alt="3 Idiots">
+                </div>
+                <h5>
+                    3 Idiots
+                    <br>
+                    <div class="subtitle">2009</div>
+
+                </h5>
+
+            </li>
+            <li class="recommenditem">
+                <div class="img_play">
+                    <img src="images/movies/jurassic world dominion 2022.jpg" alt="jurassic world dominion">
+                </div>
+                <h5>
+                    Jurassic world dominion
+                    <br>
+                    <div class="subtitle">2022</div>
+
+                </h5>
+
+            </li>
+            <li class="recommenditem">
+                <div class="img_play">
+                    <img src="images/shows/The office 2005.jpg" alt="The office">
+                </div>
+                <h5>
+                    The office
+                    <br>
+                    <div class="subtitle">2005</div>
+
+                </h5>
+
+            </li>
+            <li class="recommenditem">
+                <div class="img_play">
+                    <img src="images/shows/Chernobyl (2019).jpg" alt="Chernobyl">
+                </div>
+                <h5>
+                    Chernobyl
+                    <br>
+                    <div class="subtitle">2019</div>
+
+                </h5>
+
+            </li>
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="footer"> 
+            <p>
+                &#169; This is a project for Hackathons made by The Gigglers
+            </p>
+           
+        </div>
+    </footer>
+</body>
+
+</html>
